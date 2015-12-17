@@ -22,6 +22,9 @@ http://www.tooplate.com/view/2024-vertiwood
 
 </head>
 <body>
+<?php
+include("register.php");
+?>
 <div id="slider">
     <div id="tooplate_wrapper">
     	
@@ -61,7 +64,6 @@ http://www.tooplate.com/view/2024-vertiwood
                     </ul>
             
                 </div> <!-- end of home -->
-
 				
         	    <div class="panel" id="about">
                 	<h2>Vote</h2>
