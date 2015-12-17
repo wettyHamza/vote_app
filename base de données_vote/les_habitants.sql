@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `citoyens` (
   `num_carte_identité` int(8) NOT NULL,
   `adress` varchar(80) NOT NULL,
   `mail` varchar(80) NOT NULL,
-  `pswd` varchar(80) NOT NULL,
+  `pswd` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
