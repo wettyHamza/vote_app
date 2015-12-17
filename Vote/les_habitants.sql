@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `projets` (
   `nom_projet` varchar(100) NOT NULL,
   `duree` int(100) NOT NULL,
   `cout_projet` int(100) NOT NULL,
-  `resultat` int(100) NOT NULL,
+  `resultat` int(80) NOT NULL,
   PRIMARY KEY (`id_projet`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
