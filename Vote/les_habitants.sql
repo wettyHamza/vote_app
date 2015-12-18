@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `citoyens` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `projets`hhhh
+-- Structure de la table `projets`hhhhhh
 --
 
 CREATE TABLE IF NOT EXISTS `projets` (
